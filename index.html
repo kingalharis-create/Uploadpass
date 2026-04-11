@@ -294,7 +294,22 @@
     </div>
   </div>
 
-  <div id="pro-upsell">
+  <div id="quick-upsell" style="display:none;margin-top:20px;">
+    <div style="background:#ffffff;border:1.5px solid var(--border);border-radius:var(--radius);padding:28px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;box-shadow:var(--shadow-sm);">
+      <div>
+        <div style="font-size:10px;font-weight:600;letter-spacing:.13em;color:var(--gold);text-transform:uppercase;margin-bottom:6px;">Limited Offer</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:700;color:var(--text);margin-bottom:4px;">Fix unlimited photos today</div>
+        <div style="font-size:14px;color:var(--text-muted);font-weight:300;">Bulk processing · HD output · All formats — unlock everything for just $0.99</div>
+      </div>
+      <div style="text-align:center;flex-shrink:0;">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:700;color:var(--text);line-height:1;">$0.99</div>
+        <div style="font-size:12px;color:var(--text-muted);font-weight:300;margin-bottom:12px;">one-time · no subscription</div>
+        <button class="pro-btn" style="margin-top:0;padding:11px 28px;font-size:14px;" onclick="document.getElementById('pro-modal').classList.add('open')">Unlock Now →</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="pro-upsell" style="display:none;margin-top:20px;">
     <div class="pro-panel">
       <div class="pro-eyebrow">✦ Pro</div>
       <h3>Need to fix more photos?</h3>
@@ -468,8 +483,8 @@
       document.getElementById('result-section').style.display = 'block';
       link.addEventListener('click', () => {
         setTimeout(() => {
-          document.getElementById('pro-upsell').style.display = 'block';
-          document.getElementById('pro-upsell').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          document.getElementById('quick-upsell').style.display = 'block';
+          document.getElementById('quick-upsell').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }, 800);
       }, { once: true });
       document.getElementById('result-section').scrollIntoView({ behavior: 'smooth', block: 'nearest' });

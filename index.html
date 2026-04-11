@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UploadPass — Fix Passport & Visa Photos Instantly. Free.</title>
+  <title>UploadPass · Fix Passport & Visa Photos Instantly. Free.</title>
   <meta name="description" content="Passport or visa photo rejected? Fix it instantly, free. Resize to exact government specs for US Passport, USAJOBS, Schengen, UK Passport and more. No signup required." />
   <link rel="canonical" href="https://uploadpass.com/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,7 @@
   </script>
 
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is my photo uploaded to your servers?","acceptedAnswer":{"@type":"Answer","text":"No. UploadPass processes everything in your browser using JavaScript. Your photo never leaves your device and is never stored anywhere."}},{"@type":"Question","name":"Why was my passport photo rejected?","acceptedAnswer":{"@type":"Answer","text":"The most common reasons are file size too large, wrong pixel dimensions, or wrong file format. Government portals have strict technical requirements that most photo apps do not help you meet."}},{"@type":"Question","name":"Will the fixed photo pass US passport requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. We resize to exactly 600x600px, convert to JPEG, and compress to under 240KB — the exact specifications required by the US State Department."}},{"@type":"Question","name":"How do I fix a USAJOBS photo upload error?","acceptedAnswer":{"@type":"Answer","text":"Select the USAJOBS preset, upload your photo, and click Fix My Photo. The tool will resize and compress your photo to meet USAJOBS requirements."}},{"@type":"Question","name":"Is UploadPass free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes, completely free for fixing individual photos. No account required, no credit card, no watermarks."}}]}
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is my photo uploaded to your servers?","acceptedAnswer":{"@type":"Answer","text":"No. UploadPass processes everything in your browser using JavaScript. Your photo never leaves your device and is never stored anywhere."}},{"@type":"Question","name":"Why was my passport photo rejected?","acceptedAnswer":{"@type":"Answer","text":"The most common reasons are file size too large, wrong pixel dimensions, or wrong file format. Government portals have strict technical requirements that most photo apps do not help you meet."}},{"@type":"Question","name":"Will the fixed photo pass US passport requirements?","acceptedAnswer":{"@type":"Answer","text":"Yes. We resize to exactly 600x600px, convert to JPEG, and compress to under 240KB · the exact specifications required by the US State Department."}},{"@type":"Question","name":"How do I fix a USAJOBS photo upload error?","acceptedAnswer":{"@type":"Answer","text":"Select the USAJOBS preset, upload your photo, and click Fix My Photo. The tool will resize and compress your photo to meet USAJOBS requirements."}},{"@type":"Question","name":"Is UploadPass free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes, completely free for fixing individual photos. No account required, no credit card, no watermarks."}}]}
   </script>
 
   <style>
@@ -222,7 +222,7 @@
 </nav>
 
 <section class="hero">
-  <div class="hero-eyebrow">Free — No Signup Required</div>
+  <div class="hero-eyebrow">Free · No Signup Required</div>
   <h1>Photo <em>rejected?</em><br>Fixed in seconds.</h1>
   <p class="hero-sub">Passport, visa, or job application photo rejected for wrong size or file too large? Fix it instantly. Fully encrypted.</p>
   <div class="trust-row">
@@ -235,7 +235,7 @@
 
 <div class="main">
   <div class="panel">
-    <div class="panel-header">Step 1 — Select your application type</div>
+    <div class="panel-header">Step 1 · Select your application type</div>
     <div class="preset-grid">
       <button class="preset-btn active" data-w="600" data-h="600" data-kb="240" data-fmt="jpeg" data-label="2×2 inches (600×600px) · JPEG · Under 240KB · White background" onclick="selectPreset(this)">🇺🇸 US Passport</button>
       <button class="preset-btn" data-w="600" data-h="600" data-kb="500" data-fmt="jpeg" data-label="600×600px · JPEG · Under 500KB · Light grey background" onclick="selectPreset(this)">🇬🇧 UK Passport</button>
@@ -250,17 +250,17 @@
 
   <div class="panel tool-grid">
     <div class="upload-col">
-      <div class="panel-header" style="background:none;border:none;padding:0;">Step 2 — Upload your photo</div>
+      <div class="panel-header" style="background:none;border:none;padding:0;">Step 2 · Upload your photo</div>
       <div class="drop-zone" id="drop-zone" onclick="document.getElementById('file-input').click()" ondragover="event.preventDefault()" ondrop="handleDrop(event)">
         <div class="drop-icon" id="drop-icon">🖼️</div>
         <div class="drop-main" id="drop-main">Click to upload or drag & drop</div>
-        <div class="drop-sub" id="drop-sub">JPG, PNG, WEBP — any size accepted</div>
+        <div class="drop-sub" id="drop-sub">JPG, PNG, WEBP · any size accepted</div>
       </div>
       <input type="file" id="file-input" accept="image/*" onchange="handleFile(this.files[0])" />
       <div class="privacy-note">🔒 Encrypted pathways. Zero data retained.</div>
     </div>
     <div class="settings-col">
-      <div class="panel-header" style="background:none;border:none;padding:0;margin-bottom:14px;">Step 3 — Confirm output settings</div>
+      <div class="panel-header" style="background:none;border:none;padding:0;margin-bottom:14px;">Step 3 · Confirm output settings</div>
       <div class="spec-tag" id="spec-banner">2×2 inches (600×600px) · JPEG · Under 240KB · White background</div>
       <label class="field-label">Dimensions (px)</label>
       <div class="field-row">
@@ -294,28 +294,13 @@
     </div>
   </div>
 
-  <div id="quick-upsell" style="display:none;margin-top:20px;">
-    <div style="background:#ffffff;border:1.5px solid var(--border);border-radius:var(--radius);padding:28px 32px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;box-shadow:var(--shadow-sm);">
-      <div>
-        <div style="font-size:10px;font-weight:600;letter-spacing:.13em;color:var(--gold);text-transform:uppercase;margin-bottom:6px;">Limited Offer</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:700;color:var(--text);margin-bottom:4px;">Fix unlimited photos today</div>
-        <div style="font-size:14px;color:var(--text-muted);font-weight:300;">Bulk processing · HD output · All formats — unlock everything for just $0.99</div>
-      </div>
-      <div style="text-align:center;flex-shrink:0;">
-        <div style="font-family:'Cormorant Garamond',serif;font-size:42px;font-weight:700;color:var(--text);line-height:1;">$0.99</div>
-        <div style="font-size:12px;color:var(--text-muted);font-weight:300;margin-bottom:12px;">one-time · no subscription</div>
-        <button class="pro-btn" style="margin-top:0;padding:11px 28px;font-size:14px;" onclick="document.getElementById('pro-modal').classList.add('open')">Unlock Now →</button>
-      </div>
-    </div>
-  </div>
-
   <div id="pro-upsell" style="display:none;margin-top:20px;">
     <div class="pro-panel">
       <div class="pro-eyebrow">✦ Pro</div>
       <h3>Need to fix more photos?</h3>
       <ul class="pro-list">
         <li>Bulk fix up to 20 photos at once</li>
-        <li>HD output — zero compression artifacts</li>
+        <li>HD output · zero compression artifacts</li>
         <li>Auto background removal</li>
         <li>All output formats supported</li>
       </ul>
@@ -327,10 +312,10 @@
   <div class="trust-panel">
     <div class="panel-header">Why people trust UploadPass</div>
     <ul class="trust-list">
-      <li>🔒 Your photo is fully encrypted and processed on your device — nothing is ever uploaded to a server</li>
+      <li>🔒 Processed locally. No servers. No traces.</li>
       <li>⚡ Results delivered in under 5 seconds</li>
       <li>✅ Output meets official government specifications</li>
-      <li>💳 Completely free — no account or credit card needed</li>
+      <li>💳 Completely free · no account or credit card needed</li>
       <li>🌍 Supports passport and visa requirements for 50+ countries</li>
     </ul>
   </div>
@@ -348,12 +333,12 @@
     <div class="step-card">
       <div class="step-num">02</div>
       <div class="step-title">Upload your photo</div>
-      <div class="step-desc">Drop in any photo — any size or format. The tool center-crops, resizes to exact pixel dimensions, and compresses to meet the file size limit.</div>
+      <div class="step-desc">Drop in any photo · any size or format. The tool center-crops, resizes to exact pixel dimensions, and compresses to meet the file size limit.</div>
     </div>
     <div class="step-card">
       <div class="step-num">03</div>
       <div class="step-title">Download and resubmit</div>
-      <div class="step-desc">Your corrected photo downloads instantly. Resubmit your application with confidence — every technical requirement is met.</div>
+      <div class="step-desc">Your corrected photo downloads instantly. Resubmit your application with confidence · every technical requirement is met.</div>
     </div>
   </div>
 </div>
@@ -361,7 +346,7 @@
 <div class="content-wrap" style="padding-top:0;">
   <div class="seo-card">
     <h2>Why do passport and visa photos get rejected?</h2>
-    <p>The most common reason passport and visa photos get rejected is a technical specification mismatch — not the quality of the photo itself. Government portals and employment systems like USAJOBS apply strict automated checks for file size, pixel dimensions, and file format. When a photo fails these checks, it is rejected automatically before any human reviews it.</p>
+    <p>The most common reason passport and visa photos get rejected is a technical specification mismatch · not the quality of the photo itself. Government portals and employment systems like USAJOBS apply strict automated checks for file size, pixel dimensions, and file format. When a photo fails these checks, it is rejected automatically before any human reviews it.</p>
     <p>Most standard photo apps do not make it easy to export an image at an exact file size. That is the problem UploadPass solves: upload any photo, select your application type, and the tool automatically resizes and compresses the image to meet the precise requirements.</p>
     <h3>US Passport photo requirements</h3>
     <p>The US State Department requires passport photos to be exactly 2×2 inches (600×600 pixels), saved as a JPEG file, under 240KB in file size, with a plain white background. Digital submission rejections are almost always caused by the file being too large or the dimensions being slightly off.</p>
@@ -377,7 +362,7 @@
   <h2 class="section-title">Frequently asked</h2>
   <details><summary>Is my photo uploaded to your servers?</summary><div class="faq-body">No. UploadPass runs entirely in your browser using JavaScript. Your photo is never sent to any server, never stored, and never seen by anyone. The entire process happens locally on your device.</div></details>
   <details><summary>Why was my passport photo rejected?</summary><div class="faq-body">The most common reasons are: the file is too large, the pixel dimensions are wrong, or the file format is incorrect. Government systems check these automatically. UploadPass corrects all three in one step.</div></details>
-  <details><summary>Will the fixed photo pass US passport requirements?</summary><div class="faq-body">Yes. The US Passport preset resizes your photo to exactly 600×600 pixels, converts it to JPEG format, and compresses it to under 240KB — the exact specifications required by the US State Department.</div></details>
+  <details><summary>Will the fixed photo pass US passport requirements?</summary><div class="faq-body">Yes. The US Passport preset resizes your photo to exactly 600×600 pixels, converts it to JPEG format, and compresses it to under 240KB · the exact specifications required by the US State Department.</div></details>
   <details><summary>How do I fix a USAJOBS photo upload error?</summary><div class="faq-body">Select the USAJOBS preset, upload your photo, and click Fix My Photo. The tool resizes and compresses your photo to meet USAJOBS technical requirements. Download and re-upload to USAJOBS.</div></details>
   <details><summary>Is UploadPass free to use?</summary><div class="faq-body">Yes, completely free for fixing individual photos. No account required, no credit card, no watermarks. The Pro version ($4.99 one-time) adds bulk processing and additional features.</div></details>
   <details><summary>What photo formats are accepted?</summary><div class="faq-body">UploadPass accepts JPG, PNG, and WebP images of any size. You can output your fixed photo as JPEG (recommended for passport and visa use), PNG, or WebP.</div></details>
@@ -403,7 +388,7 @@
     <p>One-time payment. No subscription ever.</p>
     <ul class="pro-list" style="margin-bottom:22px;">
       <li>Bulk fix up to 20 photos at once</li>
-      <li>HD output — zero compression artifacts</li>
+      <li>HD output · zero compression artifacts</li>
       <li>Auto background removal</li>
       <li>All output formats supported</li>
     </ul>
@@ -442,7 +427,7 @@
     currentFile = file;
     document.getElementById('drop-icon').textContent = '✅';
     document.getElementById('drop-main').textContent = file.name;
-    document.getElementById('drop-sub').textContent = (file.size / 1024).toFixed(0) + ' KB — ready to fix';
+    document.getElementById('drop-sub').textContent = (file.size / 1024).toFixed(0) + ' KB · ready to fix';
   }
 
   function fixPhoto() {
@@ -479,12 +464,12 @@
       link.download = 'uploadpass-fixed.' + ext;
       const approxKB = Math.round(dataUrl.length * 0.75 / 1024);
       document.getElementById('result-info').textContent =
-        'Resized to ' + w + '×' + h + 'px · ' + approxKB + ' KB · ' + fmt.toUpperCase() + ' — ready to submit.';
+        'Resized to ' + w + '×' + h + 'px · ' + approxKB + ' KB · ' + fmt.toUpperCase() + ' · ready to submit.';
       document.getElementById('result-section').style.display = 'block';
       link.addEventListener('click', () => {
         setTimeout(() => {
-          document.getElementById('quick-upsell').style.display = 'block';
-          document.getElementById('quick-upsell').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          document.getElementById('pro-upsell').style.display = 'block';
+          document.getElementById('pro-upsell').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }, 800);
       }, { once: true });
       document.getElementById('result-section').scrollIntoView({ behavior: 'smooth', block: 'nearest' });

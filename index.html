@@ -49,14 +49,6 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── ADS ── */
-    .ad-wrap { background: #ffffff; border-bottom: 1px solid var(--border); padding: 10px 16px; text-align: center; }
-    .ad-label { font-size: 9px; letter-spacing: .12em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 6px; }
-    .ad-slot { background: #ffffff; border: 1px dashed var(--border); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 11px; font-style: italic; margin: 0 auto; }
-    .ad-728 { width: 100%; max-width: 728px; height: 90px; }
-    .ad-300 { width: 300px; height: 250px; }
-    .ad-center { text-align: center; margin: 28px 0; }
-
     /* ── NAV ── */
     nav {
       background: rgba(255,255,255,.85);
@@ -212,8 +204,6 @@
     .footer-divider { width: 36px; height: 1px; background: var(--gold-border); margin: 0 auto 20px; opacity: .5; }
     .footer-copy { font-size: 12px; color: var(--text-muted); font-weight: 300; }
 
-    .ad-footer { background: #ffffff; border-top: 1px solid var(--border); padding: 16px 20px 24px; text-align: center; }
-
     /* ── MODAL ── */
     .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,.4); z-index: 1000; align-items: center; justify-content: center; padding: 20px; backdrop-filter: blur(8px); }
     .modal-overlay.open { display: flex; }
@@ -226,11 +216,6 @@
 </head>
 <body>
 
-<div class="ad-wrap">
-  <div class="ad-label">Advertisement</div>
-  <div class="ad-slot ad-728">AdSense Leaderboard 728×90 — Paste your AdSense code here</div>
-</div>
-
 <nav>
   <a href="/" class="logo">Upload<em>Pass</em></a>
   <div class="nav-tag">🔒 100% Private</div>
@@ -239,10 +224,10 @@
 <section class="hero">
   <div class="hero-eyebrow">Free — No Signup Required</div>
   <h1>Photo <em>rejected?</em><br>Fixed in seconds.</h1>
-  <p class="hero-sub">Passport, visa, or job application photo rejected for wrong size or file too large? Fix it instantly — free, private, nothing ever uploaded to a server.</p>
+  <p class="hero-sub">Passport, visa, or job application photo rejected for wrong size or file too large? Fix it instantly. Fully encrypted.</p>
   <div class="trust-row">
     <span class="trust-chip">🔒 Never leaves your device</span>
-    <span class="trust-chip">⚡ Under 10 seconds</span>
+    <span class="trust-chip">⚡ Under 5 seconds</span>
     <span class="trust-chip">✅ Government spec compliant</span>
     <span class="trust-chip">💳 No card required</span>
   </div>
@@ -272,7 +257,7 @@
         <div class="drop-sub" id="drop-sub">JPG, PNG, WEBP — any size accepted</div>
       </div>
       <input type="file" id="file-input" accept="image/*" onchange="handleFile(this.files[0])" />
-      <div class="privacy-note">🔒 Processed entirely in your browser. Your photo is never sent to any server or stored anywhere.</div>
+      <div class="privacy-note">🔒 Encrypted pathways. Zero data retained.</div>
     </div>
     <div class="settings-col">
       <div class="panel-header" style="background:none;border:none;padding:0;margin-bottom:14px;">Step 3 — Confirm output settings</div>
@@ -301,11 +286,6 @@
     </div>
   </div>
 
-  <div class="ad-center">
-    <div class="ad-label">Advertisement</div>
-    <div class="ad-slot ad-300">AdSense Rectangle 300×250 — Paste your AdSense code here</div>
-  </div>
-
   <div id="result-section">
     <div class="result-panel">
       <h3>✅ Photo Fixed</h3>
@@ -332,21 +312,16 @@
   <div class="trust-panel">
     <div class="panel-header">Why people trust UploadPass</div>
     <ul class="trust-list">
-      <li>🔒 Your photo is processed in your browser — never uploaded to any server</li>
-      <li>⚡ Results delivered in under 10 seconds</li>
+      <li>🔒 Your photo is fully encrypted and processed on your device — nothing is ever uploaded to a server</li>
+      <li>⚡ Results delivered in under 5 seconds</li>
       <li>✅ Output meets official government specifications</li>
       <li>💳 Completely free — no account or credit card needed</li>
       <li>🌍 Supports passport and visa requirements for 50+ countries</li>
     </ul>
   </div>
-
-  <div class="ad-center" style="margin-top:28px;">
-    <div class="ad-label">Advertisement</div>
-    <div class="ad-slot ad-300">AdSense 300×250 — Paste your AdSense code here</div>
-  </div>
 </div>
 
-<div class="content-wrap">
+<div class="content-wrap" style="padding-top:40px;" id="how-it-works">
   <div class="section-eyebrow">How it works</div>
   <h2 class="section-title">Fixed in under a minute</h2>
   <div class="steps-grid">
@@ -396,21 +371,14 @@
 <footer>
   <div class="footer-logo">Upload<em>Pass</em></div>
   <div class="footer-links">
-    <a href="#">Privacy Policy</a>
-    <a href="#">How It Works</a>
-    <a href="#">UK Passport Fix</a>
-    <a href="#">Schengen Visa Photo</a>
-    <a href="#">USAJOBS Photo Fix</a>
-    <a href="#">Canada Visa Photo</a>
+    <a href="/privacy-policy.html">Privacy Policy</a>
+    <a href="/terms.html">Terms of Use</a>
+    <a href="/passport-photo-requirements.html">Photo Requirements</a>
+    <a href="/#how-it-works">How It Works</a>
   </div>
   <div class="footer-divider"></div>
   <div class="footer-copy">© 2026 UploadPass · Free photo compliance tool · No data stored · Runs entirely in your browser</div>
 </footer>
-
-<div class="ad-footer">
-  <div class="ad-label">Advertisement</div>
-  <div class="ad-slot ad-728">AdSense Leaderboard 728×90 — Paste your AdSense code here</div>
-</div>
 
 <div class="modal-overlay" id="pro-modal" onclick="if(event.target===this)this.classList.remove('open')">
   <div class="modal">
